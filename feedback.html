@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+
+    <h1>📘 Feedback Form</h1>
+
+    <form action="submit.html" method="post">
+
+
+
+        <label for="subject">Select Subject:</label>
+        <select id="subject" name="subject">
+      <option value="">-- Choose Subject --</option>
+      <option>Mathematics</option>
+      <option>OOP</option>
+      <option>Data Structures</option>
+      <option>Web Development</option>
+      <option>Digital Electronics</option>
+      <option>Computer Networks</option>
+    </select>
+
+        <h2>🔵 General Questions</h2>
+
+        <p>1. How clearly did the teacher explain the concepts?</p>
+        <label><input type="radio" name="q1"> Very Clearly</label>
+        <label><input type="radio" name="q1"> Clearly</label>
+        <label><input type="radio" name="q1"> Somewhat</label>
+        <label><input type="radio" name="q1"> Not Clearly</label>
+
+        <p>2. Was the teacher approachable?</p>
+        <label><input type="radio" name="q2"> Always</label>
+        <label><input type="radio" name="q2"> Often</label>
+        <label><input type="radio" name="q2"> Sometimes</label>
+        <label><input type="radio" name="q2"> Never</label>
+
+        <p>3. How would you rate the teaching method?</p>
+        <label><input type="radio" name="q3"> Excellent</label>
+        <label><input type="radio" name="q3"> Good</label>
+        <label><input type="radio" name="q3"> Average</label>
+        <label><input type="radio" name="q3"> Poor</label>
+
+        <h2>📘 Assignments & Exams</h2>
+
+        <p>4. Were assignments helpful?</p>
+        <label><input type="radio" name="q4"> Yes</label>
+        <label><input type="radio" name="q4"> No</label>
+        <label><input type="radio" name="q4"> Somewhat</label>
+
+        <p>5. Was the exam fair?</p>
+        <label><input type="radio" name="q5"> Yes</label>
+        <label><input type="radio" name="q5"> No</label>
+        <label><input type="radio" name="q5"> Partially</label>
+
+        <h2>💡 Learning & Engagement</h2>
+
+        <p>6. Did the subject help you think better?</p>
+        <label><input type="radio" name="q6"> Yes</label>
+        <label><input type="radio" name="q6"> No</label>
+        <label><input type="radio" name="q6"> Sometimes</label>
+
+        <p>7. Were digital tools (PPT, videos) used?</p>
+        <label><input type="radio" name="q7"> Yes</label>
+        <label><input type="radio" name="q7"> No</label>
+        <label><input type="radio" name="q7"> Sometimes</label>
+
+        <h2>✍ Suggestions</h2>
+
+        <label>8. What did you like most?</label><br>
+        <textarea rows="3" cols="50" name="like"></textarea><br><br>
+
+        <label>9. What would you improve?</label><br>
+        <textarea rows="3" cols="50" name="improve"></textarea><br><br>
+
+        <button type="submit">Submit 
+        </button>
+    </form>
+
+</body>
+
+</html>
